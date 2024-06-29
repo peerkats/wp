@@ -1,0 +1,249 @@
+html{
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+nav{
+    margin-top: 0;
+    width: 100vw;
+}
+nav ul {
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    text-align: center; 
+}
+
+nav ul li {
+    display: inline-block; 
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px; 
+    text-decoration: none; 
+    color: rgb(0, 0, 0); 
+    
+}
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.search input {
+    width: 50vw;
+    height: 1vh;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.textpart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-text {
+    display: flex;
+    justify-content: flex-start; /* Aligns items to the start of the container */
+    align-items: center;
+    width: 70%; /* Ensures the container takes the full width */
+    background-color: rgb(247, 245, 244);
+    padding: 2vh;
+}
+
+img {
+    width: 50vh; /* Adjust based on your image's aspect ratio */
+    height: auto; /* Adjust based on your image's aspect ratio */
+    /* Adjust to ensure the image is not too tall for the viewport */
+}
+
+p {
+    margin-left: auto; /* Pushes the paragraph to the right side of the container */
+    padding: 0 20px; /* Adds some padding around the text */
+    max-width: 50%; /* Adjusts the maximum width of the text to prevent it from being too wide */
+}
+
+
+
+.shop {
+    display: flex;
+
+    justify-content: center;
+    width: 100vw;
+}
+.item {
+    display: inline-block;
+    width: 20vw;
+    margin: 2vw;
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 50vh;
+    transition: transform 0.3s;
+    
+}
+.item:hover {
+    transform: scale(1.1);
+}
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.container { 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100%; 
+}
+
+.banner {
+    margin: 2vh auto; 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 70vw; 
+    height: auto; 
+}
+
+.banner img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+.banner article {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: rgb(255, 255, 255); 
+    text-align: center; 
+    font-size: 2em;
+    flex-direction: column;
+}
+.knop{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+
+}
+.knop button{
+    background-color: #00aa0e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    height: 6vh;
+    width: auto;
+
+}
+article{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+
+}
+.expand-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+
+}
+.nieuwbrief {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20vh;
+    background-color: #ffffff; /* Light background for contrast */
+}
+
+.form-container {
+    margin-top: 5vh;
+    padding: 20px;
+    background-color: #ffa1a1;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between form elements */
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; /* Larger font size for better readability */
+    outline: none; /* Removes the outline to customize focus state */
+}
+
+input[type="text"]:focus {
+    border-color: #007bff; /* Highlight input when focused */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff; /* Primary button color */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Matching font size with input */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+.instatext{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+}
+.insta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+footer{
+    margin-top: 5vh;
+    background-color: black;
+    color:white;
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+footer ul{
+    list-style: none;
+    margin: 5vh
+
+}
+footer ul li h4{
+    color: rgb(255, 255, 255);
+   
+}
+footer img{
+    margin-top: 5vh;
+    margin-left: 10vw;
+    width: 20vw;
+    height: 20vh;
+}
